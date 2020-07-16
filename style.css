@@ -1,6 +1,6 @@
 /* Colors and fonts */
 body{
-  background:#56a9ef;
+  background-image: url('https://www.sandals.com/blog/content/images/2019/09/things-to-do-in-barbados-bottom-bay.jpg');
   color: #111d5e;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
@@ -31,8 +31,16 @@ a {
 a:hover {
   color: black;
 }
+
+p {
+  font-size: 15px;
+}
+
+img {
+  border-radius: 30px;
+}
 .card-blue{
-  background-color: #E4F9FF;
+  background-color: #fff;
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 40px;
@@ -49,5 +57,12 @@ a:hover {
 
 .list-inline li a {
   font-size: 30px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.list-line li {
+  display: inline-block;
+  padding-right: 15px;
 }
 
